@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Welcome to the User Management Portal</h1>
+        <h2>Total count in user table is <%= count %></h2>
+    </header>
+
+    <div class="button-group">
+        <a href="/add">
+            <button class="btn btn-primary">Add User</button>
+        </a>
+        <a href="/user">
+            <button class="btn btn-secondary">See User List</button>
+        </a>
+        <a href="/delete">
+            <button class="btn btn-danger">Delete User</button>
+        </a>
+    </div>
+</div>
+</body>
+</html>
